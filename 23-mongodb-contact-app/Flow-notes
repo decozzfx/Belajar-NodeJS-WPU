@@ -1,0 +1,54 @@
+new file -> app.js
+app.js -> npm init -y
+install nodemon 
+install modul express -> npm i express
+install modul ejs(templating engine) -> npm i ejs
+install express ejs layout -> npm i express-ejs-layouts
+install module mongodb -> npm i mongoose
+install express session -> npm i express-session
+install cookie parser -> npm i cookie-parser
+install flash message -> npm i connect-flash
+install express-validator -> npm i express-validator
+install method-override -> npm i method-override
+
+require modules express
+require modules flash
+require mongodb connection 
+require model(collection db)
+
+call app express and set port
+
+configuration server
+
+-setup EJS view engine
+-setup express layouts
+-setup express static for public folder (img,css,files.., etc)
+
+build get / for index.ejs as Home page
+
+Make Utils folder
+Make db.js file for mongodb connection
+Make Model folder
+make contact.js for Schema db
+Set Schema
+
+Make Folder Views
+Make Folder layouts in Views
+-build layouts/main-layout.ejs
+-build nav.ejs
+Folder Views
+-index.ejs
+-about.ejs
+-contact.ejs
+
+Make Route
+get / for index as Home page
+get /about for about.ejs as about
+get /contact for contact.ejs as contact
+get /contact/add for add-contact.ejs as adding new contact
+post /contact for add-contact.ejs as proses adding new contact
+get /contact/:nama for detail.ejs as detail contact
+
+
+
+
